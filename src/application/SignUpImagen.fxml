@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="mypane" prefHeight="500.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="483.0" pickOnBounds="true">
+         <image>
+            <Image url="@nikhil-kumar-231465.jpg" />
+         </image>
+      </ImageView>
+      <Pane prefHeight="500.0" prefWidth="483.0" style="-fx-background-color: #5D008177;">
+         <children>
+            <JFXButton layoutX="34.0" layoutY="262.0" prefHeight="41.0" prefWidth="108.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10;" text="ABOUT US" textFill="#5d0081" />
+            <JFXButton layoutX="172.0" layoutY="262.0" prefHeight="41.0" prefWidth="108.0" style="-fx-border-color: #FFFFFF; -fx-border-radius: 10; -fx-border-width: 2;" text="SIGN IN" textAlignment="CENTER" textFill="WHITE" />
+            <Label layoutX="28.0" layoutY="143.0" prefHeight="107.0" prefWidth="261.0" text="Create Your Own Account" textFill="#f1f0e2" wrapText="true">
+               <font>
+                  <Font name="Arial" size="33.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="465.0" layoutY="-2.0" prefHeight="500.0" prefWidth="236.0">
+         <children>
+            <JFXTextField focusColor="#5d0081" labelFloat="true" layoutX="26.0" layoutY="38.0" opacity="0.6" prefHeight="25.0" prefWidth="115.0" promptText="FIRST NAME">
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </JFXTextField>
+            <JFXTextField focusColor="#5d0081" labelFloat="true" layoutX="26.0" layoutY="88.0" opacity="0.6" prefHeight="25.0" prefWidth="115.0" promptText="LAST NAME">
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </JFXTextField>
+            <JFXTextField focusColor="#5d0081" labelFloat="true" layoutX="26.0" layoutY="142.0" opacity="0.6" prefHeight="25.0" prefWidth="115.0" promptText="USERNAME">
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </JFXTextField>
+            <JFXTextField focusColor="#5d0081" labelFloat="true" layoutX="26.0" layoutY="193.0" opacity="0.6" prefHeight="25.0" prefWidth="115.0" promptText="EMAIL">
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </JFXTextField>
+            <JFXTextField focusColor="#5d0081" labelFloat="true" layoutX="26.0" layoutY="244.0" opacity="0.6" prefHeight="25.0" prefWidth="115.0" promptText="PASSWORD">
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </JFXTextField>
+            <JFXTextField focusColor="#5d0081" labelFloat="true" layoutX="26.0" layoutY="295.0" opacity="0.6" prefHeight="25.0" prefWidth="115.0" promptText="PASSWORD">
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </JFXTextField>
+            <JFXTextField focusColor="#5d0081" labelFloat="true" layoutX="26.0" layoutY="344.0" opacity="0.6" prefHeight="25.0" prefWidth="115.0" promptText="PHONE NUMBER">
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </JFXTextField>
+            <JFXToggleButton layoutX="16.0" layoutY="375.0" prefHeight="48.0" prefWidth="135.0" size="8.0" text="UNDER 18 ?" toggleColor="#5d0081" toggleLineColor="#999999" unToggleColor="#5d0081">
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </JFXToggleButton>
+            <JFXButton layoutX="36.0" layoutY="434.0" prefHeight="34.0" prefWidth="108.0" style="-fx-border-color: #5d0081; -fx-border-radius: 10; -fx-border-width: 2;" text="GET STARTED" textFill="#5d0081">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </JFXButton>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
